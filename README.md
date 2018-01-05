@@ -25,3 +25,13 @@ $ docker run --rm -v $(pwd):$(pwd) -w $(pwd) gwihlidal/protoc --cpp_out=. -I. yo
 - Swift 4
 - Swagger
 - grpc-gateway
+
+## Google Types
+Google well known types are embedded and `protoc` will include them automatically.
+https://developers.google.com/protocol-buffers/docs/reference/google.protobuf
+
+The types are available in `google/protobuf/`:
+```protobuf
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+```
