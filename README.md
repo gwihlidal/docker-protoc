@@ -42,7 +42,7 @@ import "google/protobuf/timestamp.proto";
 - protobuf: 3.5.1
 - protobuf-c: 1.3.0
 - swift: 4.0.3
-- llvm: 5.0.3
+- llvm: 5.0.0
 - swift-protobuf: 1.0.2
 - rust-protobuf: 1.4.3
 - go: 1.9.2
