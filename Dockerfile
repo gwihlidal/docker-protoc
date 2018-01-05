@@ -68,7 +68,7 @@ RUN apt-get update && \
     libz-dev unzip patchelf curl libedit-dev python2.7 python2.7-dev libxml2 \
     git libxml2-dev uuid-dev libssl-dev bash patch
 ENV SWIFT_VERSION=4.0.3 \
-    LLVM_VERSION=5.0.1
+    LLVM_VERSION=5.0.0
 RUN curl -L http://releases.llvm.org/${LLVM_VERSION}/clang+llvm-${LLVM_VERSION}-linux-x86_64-ubuntu16.04.tar.xz | tar --strip-components 1 -C /usr/local/ -xJv
 RUN curl -L https://swift.org/builds/swift-${SWIFT_VERSION}-release/ubuntu1604/swift-${SWIFT_VERSION}-RELEASE/swift-${SWIFT_VERSION}-RELEASE-ubuntu16.04.tar.gz | tar --strip-components 1 -C / -xz
 ENV SWIFT_PROTOBUF_VERSION=1.0.2
