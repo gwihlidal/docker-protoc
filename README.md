@@ -48,7 +48,7 @@ import "google/protobuf/timestamp.proto";
 - llvm: 5.0.0
 - swift-protobuf: 1.0.2
 - rust-protobuf: 1.4.3
-- go: 1.9.2
+- go: 1.9
 
 ## Repositories
 - https://github.com/google/protobuf
