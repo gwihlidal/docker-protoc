@@ -1,6 +1,8 @@
 # docker-protoc
 Docker image with protobuf compiler and various language plugins
 
+Hub: https://hub.docker.com/r/gwihlidal/protoc/
+
 ## Usage
 ```
 $ docker run --rm gwihlidal/protoc --help
@@ -37,6 +39,7 @@ import "google/protobuf/timestamp.proto";
 ```
 
 ## Versions
+- alpine: 3.7
 - grpc: 1.7.2
 - grpc_java: 1.8.0
 - protobuf: 3.5.1
